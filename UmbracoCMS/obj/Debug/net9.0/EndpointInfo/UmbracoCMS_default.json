@@ -1,0 +1,24 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Default API",
+    "description": "All endpoints not defined under specific APIs",
+    "version": "Latest"
+  },
+  "paths": { },
+  "components": {
+    "securitySchemes": {
+      "Backoffice-User": {
+        "type": "oauth2",
+        "description": "Umbraco Authentication",
+        "flows": {
+          "authorizationCode": {
+            "authorizationUrl": "/umbraco/management/api/v1/security/back-office/authorize",
+            "tokenUrl": "/umbraco/management/api/v1/security/back-office/token",
+            "scopes": { }
+          }
+        }
+      }
+    }
+  }
+}
