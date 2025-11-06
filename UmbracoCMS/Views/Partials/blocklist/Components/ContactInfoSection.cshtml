@@ -1,0 +1,77 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+
+@{
+    var content = (ContentModels.ContactInfoSection)Model.Content;
+
+    var heading = content.Heading;
+    var office = content.OfficeLocation;
+    var phone = content.PhoneNumber;
+    var email = content.EmailAddress;
+
+    var personImage = content.PersonImage;
+    var personUrl = personImage?.Url() ?? string.Empty;
+}
+
+<section class="bg-neutral pt-[72px] flex justify-center overflow-visible">
+    <div class="w-full max-w-[1170px] mx-auto px-6
+              grid grid-cols-1 lg:grid-cols-[768px_1fr] items-center
+              lg:h-[676px] overflow-visible">
+
+        
+            @if (!string.IsNullOrEmpty(personUrl))
+            {
+                <div class="flex justify-center lg:justify-start">
+                    <img src="@personUrl"
+                         alt="@heading"
+                         class="block w-full max-w-[768px] h-auto object-contain" />
+                </div>
+
+
+            }
+       
+
+        <div class="max-w-[520px]">
+            @if (!string.IsNullOrWhiteSpace(heading))
+            {
+                <h2 class="text-3xl md:text-[40px] font-bold text-primary leading-tight mb-6 pr-16">
+                    @heading
+                </h2>
+            }
+
+            <ul class="space-y-5 text-primary">
+                @if (!string.IsNullOrWhiteSpace(office))
+                {
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-location-dot mt-1 text-secondary"></i>
+                        <div>
+                            <p class="text-[14px] font-semibold">Office location</p>
+                            <p class="text-[14px]">@office</p>
+                        </div>
+                    </li>
+                }
+                @if (!string.IsNullOrWhiteSpace(phone))
+                {
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-phone mt-1 text-secondary"></i>
+                        <div>
+                            <p class="font-semibold text-[14px]">Phone number</p>
+                            <p class="text-[14px]">@phone</p>
+                        </div>
+                    </li>
+                }
+                @if (!string.IsNullOrWhiteSpace(email))
+                {
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-envelope mt-1 text-secondary"></i>
+                        <div>
+                            <p class="font-semibold text-[14px]">E-mail address</p>
+                            <p class="text-[14px]">@email</p>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+
+    </div>
+</section>

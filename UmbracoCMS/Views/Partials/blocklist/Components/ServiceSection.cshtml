@@ -5,6 +5,13 @@
     var settings = Model.Settings as ContentModels.ServiceSettings;
 
     var sectionColor = settings?.ServiceBgColor?.Color ?? "#ffffff";
+
+
+    var current = Umbraco.AssignedContentItem;
+    var siteRoot = current.Root();
+
+    var servicePage = siteRoot?.Children<ServicePage>()?.FirstOrDefault();
+    var items = servicePage?.Children<ServiceDetail>()?.OrderByDescending(x => x.CreateDate).ToList() ?? [];
 }
 
 <section class="py-[4rem] bg-[@sectionColor]">
@@ -13,22 +20,39 @@
 
             @if (settings!.ShowServiceLabel)
             {
-                <h2 class="text-[.875rem] text-[var(--clr-secondary)] font-bold uppercase">@content.ServiceLabel</h2>
+                <h2 class="text-[.875rem] text-secondary font-bold uppercase">@content.ServiceLabel</h2>
             }
 
             
             <div class="rte">@Html.Raw(content.ServiceTitle)</div>
         </div>
 
+
         <div class="mt-5 grid grid-cols-3 gap-4">
-            <div class="bg-[var(--clr-neutral)] border-2 border-[var(--clr-white-100)] w-full min-h-[350px] overflow-hidden">
-                <a href="#" class="block no-underline">
-                    <h4 class="p-[1.5rem] font-semibold text-[var(--clr-primary)]">Risk Management</h4>
-                    <img src="~/images/Risk-Management.svg" class="block w-full h-[220px] object-cover" />
-                    <p class="text-sm p-[1.5rem]">Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non </p>
-                </a>
-            </div>
+
+            @if (items.Any())
+            {
+                @foreach (var item in items)
+                {
+                    <div class="bg-neutral border-2 border-white-100 w-full min-h-[350px] overflow-hidden hover:border-secondary">
+                        <a href="@item.Url()" class="block no-underline">
+                            <h4 class="p-[1.5rem] font-semibold text-primary">@item.Name</h4>
+                            <img src="@(item.ServiceDetailThumbnail?.Url() ?? "~/images/Risk-Management.svg")" class="block w-full h-[220px] object-cover" />
+                            <p class="text-sm p-[1.5rem]">@item.ServiceDetailExcerpt</p>
+                        </a>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>No services Avaliable.</p>
+            }
+
         </div>
+
+
+
+
 
     </div>
 </section>

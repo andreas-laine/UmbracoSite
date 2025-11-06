@@ -2,14 +2,14 @@
 @inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
 @{
 
-
-
-
-
-
-
 	Layout = null;
-	var pageTitle = !string.IsNullOrEmpty(Model.Name) ? $"Onatrix - {Model.Name}" : "Onatrix";
+
+	var rootContent = Umbraco.ContentAtRoot();
+	var siteSettings = rootContent.OfType<SiteSettings>().FirstOrDefault();
+
+
+	var siteName = siteSettings?.SiteName;
+	var title = Model.Level == 1 ? $"{siteName}" : $"{siteName} | {Model.Name}";
 
 }
 
@@ -18,16 +18,23 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>@pageTitle</title>
-	<script src="https://cdn.tailwindcss.com"></script>
-	<link href="~/css/style.css" rel="stylesheet" />
+	<title>@title</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+	<link href="~/css/output.css" rel="stylesheet" />
 
 </head>
-<body>
+<body class="flex flex-col min-h-screen">
+
+	<partial name="Partials/Layout/_Topbar" />
+    <partial name="Partials/Layout/_Header" />
 
 
+	<main class="flex-grow">
 	@RenderBody()
+	</main>
 
 
+	<partial name="Partials/Layout/_PageFooter" />
 </body>
 </html>

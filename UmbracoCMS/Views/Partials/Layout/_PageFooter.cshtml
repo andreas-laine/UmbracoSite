@@ -1,0 +1,17 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+
+@{
+    var copyright = Model.Value<string>("footerCopyright") ?? "© Onatrix. All Rights Reserved";
+    var credits = Model.Value<string>("footerCreditsText") ?? "Themesflat";
+    var creditsUrl = Model.Value<string>("footerCreditsUrl");
+}
+
+    <footer class="bg-dark py-[20px]"> 
+
+        <div class="max-w-7xl mx-auto px-4">
+        <p class="text-left text-sm text-primary">© Onatrix. All Rights Reserved. Credits to 
+            <span class="text-secondary">Themesflat</span>
+        </p>
+        </div>
+
+    </footer>

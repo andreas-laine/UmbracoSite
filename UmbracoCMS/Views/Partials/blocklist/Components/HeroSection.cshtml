@@ -12,13 +12,13 @@
 		}
 	</div>
 
-	<div class="container mx-auto px-4 relative z-10">
-		<div class="w-5/12 flex flex-col gap-8">
-			<h1 class="text-[4.5rem] text-[#4F5955] font-bold leading-none">@content.HeroTitle</h1>
+	<div class="container mx-auto px-4 relative z-10 max-w-7xl">
+		<div class="w-6/12 flex flex-col gap-8">
+			<h1 class="text-[4.5rem] text-primary font-bold leading-none">@content.HeroTitle</h1>
 			<div class="rte">@Html.Raw(content.HeroText)</div>
 			@if (content.HeroLink != null)
 			{
-				<a class="bg-[#4F5955] text-white py-3 px-10 no-underline rounded cursor-pointer self-start font-bold" href="@content.HeroLink.Url">@content.HeroLink.Name</a>
+				<a class="bg-primary text-white py-3 px-10 no-underline rounded cursor-pointer self-start font-bold" href="@content.HeroLink.Url">@content.HeroLink.Name</a>
 			}
 		</div>
 	</div>

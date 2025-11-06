@@ -4,4 +4,6 @@
 	Layout = "MainLayout.cshtml";
 }
 
-<h1>@Model.BannerTitle</h1>
+<partial name="Partials/Layout/_PageHeader" model="(IPageHeader)Model" />
+
+@Html.GetBlockListHtml(Model.Sections)
