@@ -5354,6 +5354,114 @@
             "related": ".xml"
           }
         }
+      },
+      "uSync/16.1.0": {
+        "type": "package",
+        "dependencies": {
+          "uSync.BackOffice": "16.1.0",
+          "uSync.BackOffice.Targets": "16.1.0",
+          "uSync.Backoffice.Management.Api": "16.1.0",
+          "uSync.Backoffice.Management.Client": "16.1.0"
+        },
+        "compile": {
+          "lib/net9.0/uSync.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/uSync.dll": {}
+        }
+      },
+      "uSync.BackOffice/16.1.0": {
+        "type": "package",
+        "dependencies": {
+          "uSync.Community.Contrib": "16.1.0",
+          "uSync.Core": "16.1.0"
+        },
+        "compile": {
+          "lib/net9.0/uSync.BackOffice.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/uSync.BackOffice.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "uSync.Backoffice.Management.Api/16.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Umbraco.Cms.Api.Management": "16.0.0",
+          "uSync.BackOffice": "16.1.0"
+        },
+        "compile": {
+          "lib/net9.0/uSync.Backoffice.Management.Api.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/uSync.Backoffice.Management.Api.dll": {}
+        },
+        "build": {
+          "buildTransitive/uSync.Backoffice.Management.Api.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/uSync.Backoffice.Management.Api.props": {}
+        }
+      },
+      "uSync.Backoffice.Management.Client/16.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Umbraco.Cms.Infrastructure": "16.0.0",
+          "uSync.BackOffice": "16.1.0"
+        },
+        "compile": {
+          "lib/net9.0/uSync.Backoffice.Management.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/uSync.Backoffice.Management.Client.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "build": {
+          "buildTransitive/uSync.Backoffice.Management.Client.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/uSync.Backoffice.Management.Client.props": {}
+        }
+      },
+      "uSync.BackOffice.Targets/16.1.0": {
+        "type": "package",
+        "build": {
+          "buildTransitive/uSync.BackOffice.Targets.props": {}
+        }
+      },
+      "uSync.Community.Contrib/16.1.0": {
+        "type": "package",
+        "dependencies": {
+          "uSync.Core": "16.1.0"
+        },
+        "compile": {
+          "lib/net9.0/uSync.Community.Contrib.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/uSync.Community.Contrib.dll": {}
+        }
+      },
+      "uSync.Core/16.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Umbraco.Cms.Api.Management": "16.0.0",
+          "Umbraco.Cms.Web.Website": "16.0.0"
+        },
+        "compile": {
+          "lib/net9.0/uSync.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/uSync.Core.dll": {}
+        }
       }
     }
   },
@@ -19384,12 +19492,156 @@
         "umbraco.cms.web.website.16.3.3.nupkg.sha512",
         "umbraco.cms.web.website.nuspec"
       ]
+    },
+    "uSync/16.1.0": {
+      "sha512": "N7hfEoOs9SCaBz7/8Ui+EgUksbPlheov3ddhgpsW1jA4NmP97o/5bFV1JdkN3YbE6BCtip7la6e1ZSRBHFwLIA==",
+      "type": "package",
+      "path": "usync/16.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net9.0/uSync.dll",
+        "readme.md",
+        "readme.txt",
+        "usync-logo.png",
+        "usync.16.1.0.nupkg.sha512",
+        "usync.nuspec"
+      ]
+    },
+    "uSync.BackOffice/16.1.0": {
+      "sha512": "kIQLLrsY88dtFVTCY2hAqg23AioVWffRiETRQaCOwUXM3kIlxlbutVa3kZMaJEDIuY+O0zWrzg8+vUTA0QRBRA==",
+      "type": "package",
+      "path": "usync.backoffice/16.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net9.0/uSync.BackOffice.dll",
+        "lib/net9.0/uSync.BackOffice.xml",
+        "readme.md",
+        "usync-logo.png",
+        "usync.backoffice.16.1.0.nupkg.sha512",
+        "usync.backoffice.nuspec"
+      ]
+    },
+    "uSync.Backoffice.Management.Api/16.1.0": {
+      "sha512": "v1zWbBEXd3Dlq+o9DM/T+SW5urHcgHd6j3RzWy+q27Ye6NKijt2Wh+Au/YFPuofljz8mftN2ByrRx0CvDWP7WQ==",
+      "type": "package",
+      "path": "usync.backoffice.management.api/16.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/uSync.Backoffice.Management.Api.props",
+        "buildMultiTargeting/uSync.Backoffice.Management.Api.props",
+        "buildTransitive/uSync.Backoffice.Management.Api.props",
+        "lib/net9.0/uSync.Backoffice.Management.Api.dll",
+        "staticwebassets/App_Plugins/uSync/boot/TurbineBlades.jpg",
+        "staticwebassets/App_Plugins/uSync/boot/usynclogo.png",
+        "usync-logo.png",
+        "usync.backoffice.management.api.16.1.0.nupkg.sha512",
+        "usync.backoffice.management.api.nuspec"
+      ]
+    },
+    "uSync.Backoffice.Management.Client/16.1.0": {
+      "sha512": "LF4yvYwJT6oPpIPY4JplYRmhxCqL6rfCyQXJEG5Os1xg2jmziW1omHUp8T5SWDaF7Z89DqSXpQL14Qxs9fCUzA==",
+      "type": "package",
+      "path": "usync.backoffice.management.client/16.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/uSync.Backoffice.Management.Client.props",
+        "buildMultiTargeting/uSync.Backoffice.Management.Client.props",
+        "buildTransitive/uSync.Backoffice.Management.Client.props",
+        "content/usync-assets/.prettierrc.json",
+        "content/usync-assets/package-lock.json",
+        "content/usync-assets/package.json",
+        "content/usync-assets/src/tsconfig.dist.json",
+        "content/usync-assets/tsconfig.dist.json",
+        "content/usync-assets/tsconfig.json",
+        "content/usync-assets/umbraco-package-schema.json",
+        "contentFiles/any/net9.0/usync-assets/.prettierrc.json",
+        "contentFiles/any/net9.0/usync-assets/package-lock.json",
+        "contentFiles/any/net9.0/usync-assets/package.json",
+        "contentFiles/any/net9.0/usync-assets/src/tsconfig.dist.json",
+        "contentFiles/any/net9.0/usync-assets/tsconfig.dist.json",
+        "contentFiles/any/net9.0/usync-assets/tsconfig.json",
+        "contentFiles/any/net9.0/usync-assets/umbraco-package-schema.json",
+        "lib/net9.0/uSync.Backoffice.Management.Client.dll",
+        "staticwebassets/App_Plugins/uSync/addons.element-C_4i0uPA.js",
+        "staticwebassets/App_Plugins/uSync/addons.element-C_4i0uPA.js.map",
+        "staticwebassets/App_Plugins/uSync/en-us-DumZQfLC.js",
+        "staticwebassets/App_Plugins/uSync/en-us-DumZQfLC.js.map",
+        "staticwebassets/App_Plugins/uSync/icons-DpRH-q6X.js",
+        "staticwebassets/App_Plugins/uSync/icons-DpRH-q6X.js.map",
+        "staticwebassets/App_Plugins/uSync/img/usync-complete.png",
+        "staticwebassets/App_Plugins/uSync/img/usync-logo.png",
+        "staticwebassets/App_Plugins/uSync/legacy-modal-element-CKIH2-p4.js",
+        "staticwebassets/App_Plugins/uSync/legacy-modal-element-CKIH2-p4.js.map",
+        "staticwebassets/App_Plugins/uSync/legacy.element-CRPIczmh.js",
+        "staticwebassets/App_Plugins/uSync/legacy.element-CRPIczmh.js.map",
+        "staticwebassets/App_Plugins/uSync/logo-CR0R4d2u.js",
+        "staticwebassets/App_Plugins/uSync/logo-CR0R4d2u.js.map",
+        "staticwebassets/App_Plugins/uSync/settings.element-BlTkOcq7.js",
+        "staticwebassets/App_Plugins/uSync/settings.element-BlTkOcq7.js.map",
+        "staticwebassets/App_Plugins/uSync/uSync.js",
+        "staticwebassets/App_Plugins/uSync/uSync.js.map",
+        "usync-logo.png",
+        "usync.backoffice.management.client.16.1.0.nupkg.sha512",
+        "usync.backoffice.management.client.nuspec"
+      ]
+    },
+    "uSync.BackOffice.Targets/16.1.0": {
+      "sha512": "ibfemKTkpn+Fsj4CT5ddvU5uxNWY37iVLexy4YRPXSUuYlnKudkrCyKMDc9z0upF+OOyJlBk/jPimTeYUTnfQQ==",
+      "type": "package",
+      "path": "usync.backoffice.targets/16.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "appsettings-schema.usync.json",
+        "buildTransitive/uSync.BackOffice.Targets.props",
+        "readme.md",
+        "usync-logo.png",
+        "usync.backoffice.targets.16.1.0.nupkg.sha512",
+        "usync.backoffice.targets.nuspec"
+      ]
+    },
+    "uSync.Community.Contrib/16.1.0": {
+      "sha512": "mrBYsR2gxXbFVjhXUc34K7bwsGyGNL54mYs776hs3vryCA6sz9/uw1/QiwTRb1xhyxOj+4F2fAdW1teqA16QuQ==",
+      "type": "package",
+      "path": "usync.community.contrib/16.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net9.0/uSync.Community.Contrib.dll",
+        "readme.md",
+        "usync-logo.png",
+        "usync.community.contrib.16.1.0.nupkg.sha512",
+        "usync.community.contrib.nuspec"
+      ]
+    },
+    "uSync.Core/16.1.0": {
+      "sha512": "JkdGOmK3iwk6Xr3AYlaahG3pnptFWxL4c/BsHaSzJXUgSlXcP5hW8fO/HZoFt0cD2FVOHbNBfFD+rpn9Or0TKg==",
+      "type": "package",
+      "path": "usync.core/16.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net9.0/uSync.Core.dll",
+        "readme.md",
+        "usync-logo.png",
+        "usync.core.16.1.0.nupkg.sha512",
+        "usync.core.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.ICU.ICU4C.Runtime >= 72.1.0.3",
-      "Umbraco.Cms >= 16.3.3"
+      "Umbraco.Cms >= 16.3.3",
+      "uSync >= 16.1.0"
     ]
   },
   "packageFolders": {
@@ -19450,6 +19702,10 @@
           "Umbraco.Cms": {
             "target": "Package",
             "version": "[16.3.3, )"
+          },
+          "uSync": {
+            "target": "Package",
+            "version": "[16.1.0, )"
           }
         },
         "imports": [

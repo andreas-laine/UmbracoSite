@@ -15,23 +15,19 @@
 
 <section class="bg-neutral pt-[72px] flex justify-center overflow-visible">
     <div class="w-full max-w-[1170px] mx-auto px-6
-              grid grid-cols-1 lg:grid-cols-[768px_1fr] items-center
-              lg:h-[676px] overflow-visible">
+            grid grid-cols-1 lg:grid-cols-[600px_1fr] gap-10
+            lg:h-[676px] overflow-visible">
 
-        
-            @if (!string.IsNullOrEmpty(personUrl))
-            {
-                <div class="flex justify-center lg:justify-start">
-                    <img src="@personUrl"
-                         alt="@heading"
-                         class="block w-full max-w-[768px] h-auto object-contain" />
-                </div>
+        @if (!string.IsNullOrEmpty(personUrl))
+        {
+            <div class="flex items-end justify-center lg:justify-start">
+                <img src="@personUrl"
+                     alt="@heading"
+                     class="block h-full w-auto max-w-[768px] object-contain" />
+            </div>
+        }
 
-
-            }
-       
-
-        <div class="max-w-[520px]">
+        <div class="max-w-[520px] flex items-center">
             @if (!string.IsNullOrWhiteSpace(heading))
             {
                 <h2 class="text-3xl md:text-[40px] font-bold text-primary leading-tight mb-6 pr-16">
@@ -75,3 +71,4 @@
 
     </div>
 </section>
+

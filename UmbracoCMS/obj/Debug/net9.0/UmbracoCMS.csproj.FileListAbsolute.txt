@@ -606,3 +606,9 @@ D:\ECUtbildning\UmbracoSite\UmbracoCMS\obj\Debug\net9.0\UmbracoCMS.genruntimecon
 D:\ECUtbildning\UmbracoSite\UmbracoCMS\obj\Debug\net9.0\ref\UmbracoCMS.dll
 D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\package-lock.json
 D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\package.json
+D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\uSync.dll
+D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\uSync.BackOffice.dll
+D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\uSync.Backoffice.Management.Api.dll
+D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\uSync.Backoffice.Management.Client.dll
+D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\uSync.Community.Contrib.dll
+D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\uSync.Core.dll

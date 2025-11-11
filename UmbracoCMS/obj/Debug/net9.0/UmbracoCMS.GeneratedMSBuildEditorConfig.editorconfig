@@ -72,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XENvbXBvbmVudHNcSW5mb0NhcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/blocklist/Components/MapSection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XENvbXBvbmVudHNcTWFwU2VjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/blocklist/Components/ServiceSection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XENvbXBvbmVudHNcU2VydmljZVNlY3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -98,6 +102,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/Layout/_PageHeader.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcTGF5b3V0XF9QYWdlSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/Layout/_PartnerStrip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcTGF5b3V0XF9QYXJ0bmVyU3RyaXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/Layout/_Topbar.cshtml]

@@ -1,0 +1,58 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+
+@{
+    var c = (ContentModels.MapSection)Model.Content;
+    var mapUrl = c.MapBackground?.Url() ?? string.Empty;
+}
+
+@if (!string.IsNullOrWhiteSpace(mapUrl))
+{
+    <section class="relative w-screen left-1/2 -ml-[50vw] pb-24 md:pb-12">
+        <img src="@mapUrl" alt="" class="block w-full h-auto select-none" />
+
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="relative z-10 -mt-16 md:-mt-105">
+                <div class="bg-neutral shadow-[0_24px_60px_rgba(0,0,0,0.12)] border border-white p-8 md:p-14">
+                    <p class="text-[14px] font-bold uppercase tracking-wide text-secondary text-center">
+                        Request a call back
+                    </p>
+
+                    <h2 class="text-primary text-[40px] md:text-[40px] font-bold leading-tight text-center mt-2">
+                        Let us know about your<br />next project
+                    </h2>
+
+                    <p class="text-primary/70 text-center text-[14px] md:text-[14px] mt-3 max-w-[490px] mx-auto leading-relaxed">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                        consectetur, ligula semper sagittis lobortis, acas metus efficitur purus.
+                    </p>
+
+                    <form class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <input type="text" placeholder="Name"
+                               class="w-full rounded-md border border-main-light px-4 py-3 text-primary placeholder:text-primary/60 focus:outline-none focus:ring-2 focus:ring-secondary/40" />
+
+                        <input type="text" placeholder="Phone"
+                               class="w-full rounded-md border border-main-light px-4 py-3 text-primary placeholder:text-primary/60 focus:outline-none focus:ring-2 focus:ring-secondary/40" />
+
+                        <input type="email" placeholder="Email address"
+                               class="w-full rounded-md border border-main-light px-4 py-3 text-primary placeholder:text-primary/60 focus:outline-none focus:ring-2 focus:ring-secondary/40 md:col-span-1" />
+
+                        <select class="w-full rounded-md border border-main-light px-4 py-3 text-primary focus:outline-none focus:ring-2 focus:ring-secondary/40">
+                            <option>Financial consulting</option>
+                            <option>Business strategy</option>
+                            <option>Tax &amp; trusts</option>
+                            <option>Risk management</option>
+                        </select>
+
+                        <div class="md:col-span-2 flex justify-center pt-2">
+                            <button type="button"
+                                    class="px-6 py-3 rounded-md font-semibold text-white bg-[#4F5955] hover:bg-[#3f4a45] transition-colors shadow-[0_10px_30px_rgba(0,0,0,0.12)]">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+}

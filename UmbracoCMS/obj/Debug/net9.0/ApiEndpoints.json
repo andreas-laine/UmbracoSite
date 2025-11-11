@@ -14772,5 +14772,371 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Actions.uSyncActionsController",
+    "Method": "GetActions",
+    "RelativePath": "umbraco/usync/api/v1/Actions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[uSync.Backoffice.Management.Api.Models.SyncActionGroup, uSync.Backoffice.Management.Api, Version=16.1.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Actions.uSyncActionsController",
+    "Method": "GetActionsBySet",
+    "RelativePath": "umbraco/usync/api/v1/ActionsBySet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[uSync.Backoffice.Management.Api.Models.SyncActionGroup, uSync.Backoffice.Management.Api, Version=16.1.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Settings.uSyncSettingsAddOnsController",
+    "Method": "GetAddOns",
+    "RelativePath": "umbraco/usync/api/v1/AddOns",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "uSync.Backoffice.Management.Api.Controllers.Settings.uSyncAddonInfo",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Settings.uSyncSettingsAddOnsController",
+    "Method": "GetAddonSplash",
+    "RelativePath": "umbraco/usync/api/v1/AddOnSplash",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "uSync.Backoffice.Management.Api.Controllers.Settings.uSyncAddonSplash",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Migrations.uSyncMigrationController",
+    "Method": "CheckLegacy",
+    "RelativePath": "umbraco/usync/api/v1/CheckLegacy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "uSync.Backoffice.Management.Api.Controllers.Migrations.SyncLegacyCheckResponse",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Migrations.uSyncMigrationController",
+    "Method": "CopyLegacy",
+    "RelativePath": "umbraco/usync/api/v1/CopyLegacy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Actions.uSyncPerformActionController",
+    "Method": "Download",
+    "RelativePath": "umbraco/usync/api/v1/Download",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.FileContentResult",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Settings.uSyncSettingsController",
+    "Method": "GetHandlerSetSettings",
+    "RelativePath": "umbraco/usync/api/v1/HandlerSettings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "uSync.BackOffice.Configuration.uSyncHandlerSetSettings",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Migrations.uSyncMigrationController",
+    "Method": "IgnoreLegacy",
+    "RelativePath": "umbraco/usync/api/v1/IgnoreLegacy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Actions.SyncItemController",
+    "Method": "ImportSingle",
+    "RelativePath": "umbraco/usync/api/v1/Import",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "action",
+        "Type": "uSync.Backoffice.Management.Api.Models.uSyncActionView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "uSync.BackOffice.uSyncAction",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Actions.SyncFolderController",
+    "Method": "MergeExportFolder",
+    "RelativePath": "umbraco/usync/api/v1/MergeExport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Actions.uSyncPerformActionController",
+    "Method": "PerformAction",
+    "RelativePath": "umbraco/usync/api/v1/Perform",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "uSync.Backoffice.Management.Api.Models.PerformActionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "uSync.Backoffice.Management.Api.Models.PerformActionResponse",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Actions.uSyncPerformActionController",
+    "Method": "ProcessUpload",
+    "RelativePath": "umbraco/usync/api/v1/ProcessUpload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tempKey",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "uSync.BackOffice.Models.UploadImportResult",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Settings.uSyncSettingsController",
+    "Method": "GetSets",
+    "RelativePath": "umbraco/usync/api/v1/Sets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[uSync.Backoffice.Management.Api.Controllers.Settings.SyncSelectableSet, uSync.Backoffice.Management.Api, Version=16.1.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "uSync.Backoffice.Management.Api.Controllers.Settings.uSyncSettingsController",
+    "Method": "GetSettings",
+    "RelativePath": "umbraco/usync/api/v1/Settings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "uSync.BackOffice.Configuration.uSyncSettings",
+        "MediaTypes": [
+          "application/json",
+          "text/json",
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

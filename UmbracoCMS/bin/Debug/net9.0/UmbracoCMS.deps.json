@@ -39,6 +39,7 @@
         "dependencies": {
           "Microsoft.ICU.ICU4C.Runtime": "72.1.0.3",
           "Umbraco.Cms": "16.3.3",
+          "uSync": "16.1.0",
           "Microsoft.AspNetCore.Antiforgery": "9.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "9.0.0.0",
           "Microsoft.AspNetCore.Authentication.BearerToken": "9.0.0.0",
@@ -4196,6 +4197,98 @@
           "lib/net9.0/Umbraco.Web.Website.dll": {}
         }
       },
+      "uSync/16.1.0": {
+        "dependencies": {
+          "uSync.BackOffice": "16.1.0",
+          "uSync.BackOffice.Targets": "16.1.0",
+          "uSync.Backoffice.Management.Api": "16.1.0",
+          "uSync.Backoffice.Management.Client": "16.1.0"
+        },
+        "runtime": {
+          "lib/net9.0/uSync.dll": {
+            "assemblyVersion": "16.1.0.0",
+            "fileVersion": "16.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/net9.0/uSync.dll": {}
+        }
+      },
+      "uSync.BackOffice/16.1.0": {
+        "dependencies": {
+          "uSync.Community.Contrib": "16.1.0",
+          "uSync.Core": "16.1.0"
+        },
+        "runtime": {
+          "lib/net9.0/uSync.BackOffice.dll": {
+            "assemblyVersion": "16.1.0.0",
+            "fileVersion": "16.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/net9.0/uSync.BackOffice.dll": {}
+        }
+      },
+      "uSync.Backoffice.Management.Api/16.1.0": {
+        "dependencies": {
+          "Umbraco.Cms.Api.Management": "16.3.3",
+          "uSync.BackOffice": "16.1.0"
+        },
+        "runtime": {
+          "lib/net9.0/uSync.Backoffice.Management.Api.dll": {
+            "assemblyVersion": "16.1.0.0",
+            "fileVersion": "16.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/net9.0/uSync.Backoffice.Management.Api.dll": {}
+        }
+      },
+      "uSync.Backoffice.Management.Client/16.1.0": {
+        "dependencies": {
+          "Umbraco.Cms.Infrastructure": "16.3.3",
+          "uSync.BackOffice": "16.1.0"
+        },
+        "runtime": {
+          "lib/net9.0/uSync.Backoffice.Management.Client.dll": {
+            "assemblyVersion": "16.1.0.0",
+            "fileVersion": "16.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/net9.0/uSync.Backoffice.Management.Client.dll": {}
+        }
+      },
+      "uSync.BackOffice.Targets/16.1.0": {},
+      "uSync.Community.Contrib/16.1.0": {
+        "dependencies": {
+          "uSync.Core": "16.1.0"
+        },
+        "runtime": {
+          "lib/net9.0/uSync.Community.Contrib.dll": {
+            "assemblyVersion": "16.1.0.0",
+            "fileVersion": "16.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/net9.0/uSync.Community.Contrib.dll": {}
+        }
+      },
+      "uSync.Core/16.1.0": {
+        "dependencies": {
+          "Umbraco.Cms.Api.Management": "16.3.3",
+          "Umbraco.Cms.Web.Website": "16.3.3"
+        },
+        "runtime": {
+          "lib/net9.0/uSync.Core.dll": {
+            "assemblyVersion": "16.1.0.0",
+            "fileVersion": "16.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/net9.0/uSync.Core.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/9.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -8073,6 +8166,55 @@
       "sha512": "sha512-fId2/M0Hxa2FLWwgdNu6MnnwRvKtpcU1wY4BQ17V/ysmcO8ahxpTeqWseyGcfp8QaU43BKYSkX+PV3hHyxyT3A==",
       "path": "umbraco.cms.web.website/16.3.3",
       "hashPath": "umbraco.cms.web.website.16.3.3.nupkg.sha512"
+    },
+    "uSync/16.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N7hfEoOs9SCaBz7/8Ui+EgUksbPlheov3ddhgpsW1jA4NmP97o/5bFV1JdkN3YbE6BCtip7la6e1ZSRBHFwLIA==",
+      "path": "usync/16.1.0",
+      "hashPath": "usync.16.1.0.nupkg.sha512"
+    },
+    "uSync.BackOffice/16.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kIQLLrsY88dtFVTCY2hAqg23AioVWffRiETRQaCOwUXM3kIlxlbutVa3kZMaJEDIuY+O0zWrzg8+vUTA0QRBRA==",
+      "path": "usync.backoffice/16.1.0",
+      "hashPath": "usync.backoffice.16.1.0.nupkg.sha512"
+    },
+    "uSync.Backoffice.Management.Api/16.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v1zWbBEXd3Dlq+o9DM/T+SW5urHcgHd6j3RzWy+q27Ye6NKijt2Wh+Au/YFPuofljz8mftN2ByrRx0CvDWP7WQ==",
+      "path": "usync.backoffice.management.api/16.1.0",
+      "hashPath": "usync.backoffice.management.api.16.1.0.nupkg.sha512"
+    },
+    "uSync.Backoffice.Management.Client/16.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LF4yvYwJT6oPpIPY4JplYRmhxCqL6rfCyQXJEG5Os1xg2jmziW1omHUp8T5SWDaF7Z89DqSXpQL14Qxs9fCUzA==",
+      "path": "usync.backoffice.management.client/16.1.0",
+      "hashPath": "usync.backoffice.management.client.16.1.0.nupkg.sha512"
+    },
+    "uSync.BackOffice.Targets/16.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ibfemKTkpn+Fsj4CT5ddvU5uxNWY37iVLexy4YRPXSUuYlnKudkrCyKMDc9z0upF+OOyJlBk/jPimTeYUTnfQQ==",
+      "path": "usync.backoffice.targets/16.1.0",
+      "hashPath": "usync.backoffice.targets.16.1.0.nupkg.sha512"
+    },
+    "uSync.Community.Contrib/16.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mrBYsR2gxXbFVjhXUc34K7bwsGyGNL54mYs776hs3vryCA6sz9/uw1/QiwTRb1xhyxOj+4F2fAdW1teqA16QuQ==",
+      "path": "usync.community.contrib/16.1.0",
+      "hashPath": "usync.community.contrib.16.1.0.nupkg.sha512"
+    },
+    "uSync.Core/16.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JkdGOmK3iwk6Xr3AYlaahG3pnptFWxL4c/BsHaSzJXUgSlXcP5hW8fO/HZoFt0cD2FVOHbNBfFD+rpn9Or0TKg==",
+      "path": "usync.core/16.1.0",
+      "hashPath": "usync.core.16.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/9.0.0.0": {
       "type": "referenceassembly",

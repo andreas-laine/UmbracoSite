@@ -58,6 +58,10 @@
             "Umbraco.Cms": {
               "target": "Package",
               "version": "[16.3.3, )"
+            },
+            "uSync": {
+              "target": "Package",
+              "version": "[16.1.0, )"
             }
           },
           "imports": [

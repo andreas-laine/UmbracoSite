@@ -7,3 +7,5 @@
 <partial name="Partials/Layout/_PageHeader" model="(IPageHeader)Model" />
 
 @Html.GetBlockListHtml(Model.Sections)
+
+@await Html.PartialAsync("Partials/Layout/_PartnerStrip")
