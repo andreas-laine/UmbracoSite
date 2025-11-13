@@ -1,0 +1,27 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>;
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+    var content = (ContentModels.NewsletterCard)Model.Content;
+}
+
+
+<div class="flex flex-col gap-4 border border-none rounded-xs bg-grey bg-primary bg-[url('/images/Mail.svg')] bg-no-repeat bg-right-bottom
+            bg-[length:140px_auto] p-5 my-12 h-[225px]">
+    <h2 class="text-[#C4C4C4] text-[1.375rem] font-semibold">@content.NewsletterTitle</h2>
+    <p class="text-[#C4C4C4] text-[.875rem] font-normal">@content.NewsletterDescription</p>
+    
+    <form class="relative my-4">
+        <input type="email"
+               placeholder="E-mail address"
+               class="w-full rounded-md bg-neutral text-primary placeholder:text-primary/60
+                      px-5 py-3 pr-12 outline-none border border-transparent focus:ring-2 focus:ring-secondary placeholder:italic" />
+
+        <span class="absolute inset-y-0 right-4 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5 text-primary opacity-80">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                      d="M3 7l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+        </span>
+    </form>
+
+</div>

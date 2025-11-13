@@ -1,0 +1,61 @@
+﻿@using UmbracoCMS.ViewModels
+@model CallBackFormViewModel
+
+@using (Html.BeginUmbracoForm("HandleCallbackForm", "Form", FormMethod.Post, new { novalidate = "novalidate", id = "callbackForm" }))
+{
+    <div class="px-[2rem] flex flex-col gap-6">
+
+        <div>
+            <label asp-for="Name" class="sr-only"></label>
+            <input asp-for="Name" type="text" placeholder="@Html.DisplayNameFor(x => x.Name)" class="w-full p-3 italic border border-gray-300 focus:ring-2 focus:ring-primary focus:outline-none"/>
+            <span asp-validation-for="Name"></span>
+        </div>
+
+        <div>
+            <label asp-for="Email" class="sr-only"></label>
+            <input asp-for="Email" type="text" placeholder="@Html.DisplayNameFor(x => x.Email)" class="w-full p-3 italic border border-gray-300 focus:ring-2 focus:ring-primary focus:outline-none" />
+            <span asp-validation-for="Email"></span>
+        </div>
+
+        <div>
+            <label asp-for="Phone" class="sr-only"></label>
+            <input asp-for="Phone" type="text" placeholder="@Html.DisplayNameFor(x => x.Phone)" class="w-full p-3 italic border border-gray-300 focus:ring-2 focus:ring-primary focus:outline-none" />
+            <span asp-validation-for="Phone"></span>
+        </div>
+
+        <div>
+
+            <label asp-for="SelectedOption" class="sr-only"></label>
+
+            <div class="relative">
+                <select asp-for="SelectedOption" class="appearance-none w-full p-3 pr-10 border border-gray-300 focus:ring-2 focus:ring-primary focus:outline-none">
+
+                    <option value="" disabled hidden selected>Please select an option</option>
+
+                    @foreach (var option in Model.Options)
+                    {
+                        <option value="@option">@option</option>
+                    }
+    )
+
+                </select>
+
+                <span class="pointer-events-none absolute right-3 inset-y-0 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />    
+                    </svg>
+                </span>
+
+            </div>
+
+
+            <span asp-validation-for="SelectedOption"></span>
+
+        </div>
+
+        <div class="pb-[2.5rem]">
+            <button type="submit" class="form-btn">Submit</button>
+        </div>
+
+    </div>
+}

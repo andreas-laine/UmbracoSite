@@ -60,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tncmlkXGl0ZW1zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/blocklist/Components/AboutCallbackSection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XENvbXBvbmVudHNcQWJvdXRDYWxsYmFja1NlY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/blocklist/Components/ContactInfoSection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XENvbXBvbmVudHNcQ29udGFjdEluZm9TZWN0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,8 +80,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XENvbXBvbmVudHNcTWFwU2VjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/blocklist/Components/NewsletterCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XENvbXBvbmVudHNcTmV3c2xldHRlckNhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/blocklist/Components/ServiceSection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XENvbXBvbmVudHNcU2VydmljZVNlY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/blocklist/Components/SuccessStatsSection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XENvbXBvbmVudHNcU3VjY2Vzc1N0YXRzU2VjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/blocklist/Components/TeamMember.cshtml]
@@ -88,8 +100,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XENvbXBvbmVudHNcVGVhbVNlY3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/blocklist/Components/TrustedBySection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XENvbXBvbmVudHNcVHJ1c3RlZEJ5U2VjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/blocklist/Components/TrustedClientsSection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XENvbXBvbmVudHNcVHJ1c3RlZENsaWVudHNTZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/blocklist/default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcYmxvY2tsaXN0XGRlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/Forms/_CallbackForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcRm9ybXNcX0NhbGxiYWNrRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ECUtbildning/UmbracoSite/UmbracoCMS/Views/Partials/Layout/_Header.cshtml]

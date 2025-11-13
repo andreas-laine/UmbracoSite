@@ -1,0 +1,59 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>
+@using UmbracoCMS.ViewModels
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+
+@{
+    var content = (ContentModels.AboutCallbackSection)Model.Content;
+    var settings = Model.Settings as ContentModels.AboutCallbackSettings;
+
+    var options = settings?.CallbackRequestOptions;
+
+    var formVM = new CallBackFormViewModel
+    {
+        Options = settings?.CallbackRequestOptions ?? []
+    };
+
+}
+
+<section class="py-12">
+    <div class="max-w-7xl mx-auto px-4 flex gap-10">
+
+        <div class="flex flex-col w-7/12">
+            <div class="rte">
+                @Html.Raw(content.CallbackBody)
+            </div>
+        </div>
+
+        <div class="flex flex-col w-5/12 shadow-md -mt-[11rem] z-[99]">
+            <div class="bg-primary">
+                <p class="text-accent py-[1.5rem] px-[2rem] text-[1.875rem] font-bold">
+                    @content.CallbackFormTitle
+                </p>
+            </div>
+                <p class="text-sm py-[1.5rem] px-[2rem] italic">
+                    @content.CallbackFormDescription
+                </p>
+
+                <partial name="Partials/Forms/_CallbackForm" model="formVM" />
+
+
+                @if (TempData["FormSuccess"]  != null)
+                {
+                    <div class= "bg-green-50 text-green-700 p-4 mx-[2rem] mb-4 rounded-md">
+                        @TempData["FormSuccess"]
+                </div>
+            }
+            else if (TempData["FormError"] != null)
+            {
+                <div class="bg-red-50 text-red-700 p-4 mx-[2rem] mb-4 rounded-md">
+                    @TempData["FormError"]
+                </div>
+            }
+
+
+            
+
+        </div>
+
+    </div>
+</section>

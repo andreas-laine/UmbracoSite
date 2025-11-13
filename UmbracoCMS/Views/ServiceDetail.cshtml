@@ -6,7 +6,7 @@
 
 <partial name="Partials/Layout/_PageHeader" model="(IPageHeader)Model" />
 
-<section class="py-16">
+<section class="pt-16">
 	<div class="max-w-7xl mx-auto px-4">
 		<div class="flex flex-grow justify-between">
 
@@ -22,5 +22,50 @@
 
 
 		</div>
+
+
+			<section class="py-16 bg-neutral">
+              <div class="max-w-4xl mx-auto px-6">
+                <h2 class="text-[25px] font-bold text-primary mb-6">Have a question ?</h2>
+
+                <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    class="w-full rounded-md border border-gray-200 px-4 py-3
+                           text-primary placeholder:text-gray-400 focus:outline-none
+                           focus:ring-2 focus:ring-secondary/40" />
+
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="w-full rounded-md border border-gray-200 px-4 py-3
+                           text-primary placeholder:text-gray-400 focus:outline-none
+                           focus:ring-2 focus:ring-secondary/40" />
+
+                  <textarea
+                    placeholder="Question"
+                    rows="5"
+                    class="md:col-span-2 w-full rounded-md border border-gray-200 px-4 py-3
+                           text-primary placeholder:text-gray-400 focus:outline-none
+                           focus:ring-2 focus:ring-secondary/40"></textarea>
+
+                  <div class="md:col-span-2 flex justify-start pt-2">
+                    <button type="submit"
+                      class="px-6 py-3 rounded-md font-semibold text-white
+                             bg-[#4F5955] hover:bg-[#3f4a45] transition-colors
+                             shadow-[0_10px_30px_rgba(0,0,0,0.12)]">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </section>
+
+		<div>
+		    @Html.GetBlockListHtml(Model, "contactSection")
+		</div>
+
 	</div>
 </section>

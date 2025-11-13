@@ -157,6 +157,32 @@
             "tag": "ul",
             "class": "rte-ul"
           }
+        },
+        {
+          "label": "Images",
+          "items": [
+            {
+              "label": "Small (171px)",
+              "data": {
+                "tag": "img",
+                "class": "rte-img-small"
+              }
+            },
+            {
+              "label": "Medium (50%)",
+              "data": {
+                "tag": "img",
+                "class": "rte-img-medium"
+              }
+            },
+            {
+              "label": "Full width",
+              "data": {
+                "tag": "img",
+                "class": "rte-img-full"
+              }
+            }
+          ]
         }
       ]
     },

@@ -1,0 +1,49 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+
+@{
+    var c = (ContentModels.TrustedClientsSection)Model.Content;
+
+    var rte = c.TrustedClientsHero;
+    var link = c.TrustedClientsLink;
+    var peopleImage = c.TrustedClientsImage;
+    var backgroundImg = c.TrustedClientsBackground;
+
+    var ctaText = string.IsNullOrWhiteSpace(link?.Name) ? "Read our story" : link.Name;
+    var ctaUrl = link?.Url ?? "#";
+    var ctaTarget = link?.Target ?? "_self";
+}
+
+<section class="relative py-16 md:py-10">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+        @if (backgroundImg != null)
+        {
+            <div class="pt-20 pointer-events-none absolute inset-x-0 top-6 mx-auto max-w-5xl">
+                <img src="@backgroundImg.Url()" alt="@backgroundImg.Name" class="w-full h-auto object-cover" />
+            </div>
+        }
+
+        <div class="relative z-[1] max-w-2xl mx-auto">
+            @Html.Raw(rte)
+
+            @if (link != null)
+            {
+                <div class="mt-6 mb-22">
+                    <a href="@ctaUrl" target="@ctaTarget"
+                       class="inline-block rounded-md px-6 py-3 bg-primary text-white hover:opacity-90 transition">
+                        @ctaText
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+
+    @if (peopleImage != null)
+    {
+        <div class="relative z-[1] max-w-5xl mx-auto px-6 mt-10 pb-10">
+            <img src="@peopleImage.Url()" alt="@peopleImage.Name"
+                 class="w-full h-auto object-cover select-none md:-mb-16 lg:-mb-20" />
+        </div>
+    }
+</section>

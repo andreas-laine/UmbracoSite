@@ -1,7 +1,9 @@
 ﻿@import "tailwindcss";
+@import "./forms.css";
 
 
-@theme {
+@theme
+{
     --color-neutral: #ffffff;
     --color-white: #F2EDDC;
     --color-white-100: #F7F7F7;
@@ -16,11 +18,7 @@
     --color-note1: #9C9EA6;
     --color-border-gray: #EAEAEA;
     --color-border-400: #C7C8C9;
-
-
     --font-poppins: "poppins", sans-serif;
-
-
     --text-rte-xl: 4.375rem;
     --text-rte-lg: 2.5rem;
     --text-rte-md: 1.25rem;
@@ -56,6 +54,30 @@ body {
     @apply mb-3;
 }
 
+.rte img {
+    @apply w-[171px] h-auto object-cover;
+}
+
 img {
     @apply w-full h-auto object-cover;
+}
+
+.rte img.rte-img-small {
+    @apply w-[171px];
+}
+
+.rte img.rte-img-medium {
+    @apply w-1/2;
+}
+
+.rte img.rte-img-full {
+    @apply w-full;
+}
+
+.rte img.float-left {
+    @apply float-left mr-6 mb-4;
+}
+
+.rte img.float-right {
+    @apply float-right ml-6 mb-4;
 }

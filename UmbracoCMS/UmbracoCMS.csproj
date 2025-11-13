@@ -6,6 +6,9 @@
     <CompressionEnabled>false</CompressionEnabled> <!-- Disable compression. E.g. for umbraco backoffice files. These files should be precompressed by node and not let dotnet handle it -->
   </PropertyGroup>
   <ItemGroup>
+    <Content Remove="Views\Partials\blocklist\Components\CEOSection.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="App_Plugins\OnatrixRte\umbraco-package.json" />
   </ItemGroup>
 
@@ -22,6 +25,10 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Partials\blocklist\Components\CEOSection.cshtml" />
   </ItemGroup>
 
   <PropertyGroup>

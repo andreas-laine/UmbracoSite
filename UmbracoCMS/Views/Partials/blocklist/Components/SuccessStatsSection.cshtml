@@ -1,0 +1,80 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+
+@{
+    var content = (ContentModels.SuccessStatsSection)Model.Content;
+
+    var title = content.SuccessTitle;
+    var subTitle = content.SuccessSubTitle;
+
+    var value1 = content.SuccessValueOne;
+    var label1 = content.SuccessLabelOne;
+
+    var value2 = content.SuccessValueTwo;
+    var label2 = content.SuccessLabelTwo;
+
+    var value3 = content.SuccessValueThree;
+    var label3 = content.SuccessLabelThree;
+
+    var bg = content.SuccessBackgroundImage;
+    var bgUrl = bg?.Url();
+
+    var bottomImg = content.SuccessBottomImage;
+    var bottomUrl = bottomImg?.Url();
+    var bottomAlt = !string.IsNullOrWhiteSpace(bottomImg?.Name)
+        ? bottomImg!.Name
+        : "Success story image";
+}
+
+<section class="relative bg-primary pt-16 md:pt-20 text-center text-secondary mb-[150px] md:mb-[180px]">
+    @if (bg != null && !string.IsNullOrWhiteSpace(bgUrl))
+    {
+        <div class="pointer-events-none absolute pt-20 inset-x-0 top-6 mx-auto max-w-5xl">
+            <img src="@bgUrl"
+                 alt="@bg.Name"
+                 class="w-full h-auto object-cover opacity-40" />
+        </div>
+    }
+
+    <div class="relative z-[1] max-w-7xl mx-auto px-6 max-h-[600px]">
+        @if (!string.IsNullOrWhiteSpace(title))
+        {
+            <p class="text-[12px] md:text-[13px] tracking-[0.18em] font-semibold uppercase text-secondary mb-2">
+                @title
+            </p>
+        }
+
+        @if (!string.IsNullOrWhiteSpace(subTitle))
+        {
+            <h2 class="text-[32px] md:text-[40px] font-semibold text-neutral mb-6">
+                @subTitle
+            </h2>
+        }
+
+        <div class="mt-4 md:mt-6 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+            <div>
+                <p class="text-[52px] md:text-[60px] font-semibold leading-none mb-2">@value1</p>
+                <p class="text-[13px] md:text-[14px] leading-relaxed text-neutral max-w-[260px] mx-auto">@label1</p>
+            </div>
+
+            <div>
+                <p class="text-[52px] md:text-[60px] font-semibold leading-none mb-2">@value2</p>
+                <p class="text-[13px] md:text-[14px] leading-relaxed text-neutral max-w-[260px] mx-auto">@label2</p>
+            </div>
+
+            <div>
+                <p class="text-[52px] md:text-[60px] font-semibold leading-none mb-2">@value3</p>
+                <p class="text-[13px] md:text-[14px] leading-relaxed text-neutral max-w-[260px] mx-auto">@label3</p>
+            </div>
+        </div>
+
+        @if (!string.IsNullOrWhiteSpace(bottomUrl))
+        {
+            <div class="max-w-3xl mx-auto relative z-[2] transform translate-y-[50px] md:translate-y-[80px]">
+                <img src="@bottomUrl"
+                     alt="@bottomAlt"
+                     class="w-full h-auto object-cover" />
+            </div>
+        }
+    </div>
+</section>

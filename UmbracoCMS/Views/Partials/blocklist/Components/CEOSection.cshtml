@@ -1,0 +1,33 @@
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+
+@{
+    var content = (ContentModels.CeoSection)Model.Content;
+
+    var img = content.CeoImage;
+    var imgUrl = img?.Url();
+    var nameTitle = content.CeoNameTitle;
+    var descriptionHtml = content.CeoDescription;
+}
+
+<section class="py-26 bg-neutral">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-[400px_1fr] gap-10 items-start">
+        <aside class="flex flex-col items-center md:items-start text-center md:text-left">
+            @if (!string.IsNullOrWhiteSpace(imgUrl))
+            {
+                <img src="@imgUrl"
+                     alt="@(string.IsNullOrWhiteSpace(nameTitle) ? "CEO" : nameTitle)"
+                     class="w-[400px] h-auto object-cover mb-4" />
+            }
+
+            @if (!string.IsNullOrWhiteSpace(nameTitle))
+            {
+                <p class="italic text-[16px] text-gray-600">@nameTitle</p>
+            }
+        </aside>
+
+        <div class="rte prose max-w-none">
+            @descriptionHtml
+        </div>
+    </div>
+</section>
