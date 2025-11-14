@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UmbracoCMS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc8d9eaaa7fab0efe0bc45febb21fd5c6547235e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b162004e10b0a58cd8418f4d61e61ac54bcb9866")]
 [assembly: System.Reflection.AssemblyProductAttribute("UmbracoCMS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UmbracoCMS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
