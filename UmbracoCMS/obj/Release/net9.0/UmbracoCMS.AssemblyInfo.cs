@@ -13,9 +13,9 @@ using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("a048883a-0680-413a-9c96-ddeb4576cc3a")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("UmbracoCMS")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad9d7a32334a477a6dd53a82b4f41cdee5c5f3c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+087e0f9b85f5169a3597c9c686c81500bc106ba3")]
 [assembly: System.Reflection.AssemblyProductAttribute("UmbracoCMS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UmbracoCMS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
