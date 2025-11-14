@@ -35,7 +35,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Core.Models.DeliveryApi.IApiContentResponse, Umbraco.Core, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Core.Models.DeliveryApi.IApiContentResponse, Umbraco.Core, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "text/json",
@@ -165,7 +165,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Core.Models.DeliveryApi.IApiContentResponse, Umbraco.Core, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Core.Models.DeliveryApi.IApiContentResponse, Umbraco.Core, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "text/json",
@@ -223,7 +223,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Core.Models.DeliveryApi.IApiMediaWithCropsResponse, Umbraco.Core, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Core.Models.DeliveryApi.IApiMediaWithCropsResponse, Umbraco.Core, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "text/json",
@@ -328,7 +328,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Core.Models.DeliveryApi.IApiMediaWithCropsResponse, Umbraco.Core, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Core.Models.DeliveryApi.IApiMediaWithCropsResponse, Umbraco.Core, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "text/json",
@@ -434,7 +434,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.Collection.DocumentCollectionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.Collection.DocumentCollectionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -505,7 +505,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.Collection.MediaCollectionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.Collection.MediaCollectionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -551,7 +551,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Culture.CultureReponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Culture.CultureReponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -841,7 +841,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.TrackedReferences.IReferenceResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.TrackedReferences.IReferenceResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -1080,7 +1080,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Dictionary.DictionaryOverviewResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Dictionary.DictionaryOverviewResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -1983,7 +1983,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.AllowedDocumentType, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.AllowedDocumentType, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -2026,7 +2026,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.DocumentTypeBlueprintItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.DocumentTypeBlueprintItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -2059,7 +2059,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.DocumentTypeCompositionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.DocumentTypeCompositionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -2267,7 +2267,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.AllowedDocumentType, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.AllowedDocumentType, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -2292,7 +2292,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.AvailableDocumentTypeCompositionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.AvailableDocumentTypeCompositionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -2541,7 +2541,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.DocumentVersionItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.DocumentVersionItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -2843,7 +2843,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.AuditLog.AuditLogResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.AuditLog.AuditLogResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -2878,7 +2878,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Segment.SegmentResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Segment.SegmentResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -3103,7 +3103,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.DocumentNotificationResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.DocumentNotificationResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -3482,7 +3482,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.TrackedReferences.IReferenceResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.TrackedReferences.IReferenceResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -3517,7 +3517,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.ReferenceByIdModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.ReferenceByIdModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -3595,7 +3595,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.ReferenceByIdModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.ReferenceByIdModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -3677,7 +3677,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.DocumentUrlInfoResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.DocumentUrlInfoResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -3804,7 +3804,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.DataType.Item.DataTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.DataType.Item.DataTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -3869,7 +3869,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Member.MemberResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Member.MemberResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -3921,7 +3921,7 @@
       },
       {
         "Name": "userStates",
-        "Type": "System.Collections.Generic.HashSet\u00601[[Umbraco.Cms.Core.Models.Membership.UserState, Umbraco.Core, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.HashSet\u00601[[Umbraco.Cms.Core.Models.Membership.UserState, Umbraco.Core, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": false
       },
       {
@@ -3932,7 +3932,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.User.UserResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.User.UserResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -3983,7 +3983,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.UserGroup.UserGroupResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.UserGroup.UserGroupResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4029,7 +4029,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.HealthCheck.HealthCheckGroupResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.HealthCheck.HealthCheckGroupResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4181,7 +4181,7 @@
         "StatusCode": 400
       },
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Help.HelpPageResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Help.HelpPageResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4221,7 +4221,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.MediaUrlInfoResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.MediaUrlInfoResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4292,7 +4292,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Indexer.IndexResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Indexer.IndexResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4483,7 +4483,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.DataType.Item.DataTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.DataType.Item.DataTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4518,7 +4518,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.DataType.Item.DataTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.DataType.Item.DataTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4543,7 +4543,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Dictionary.Item.DictionaryItemItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Dictionary.Item.DictionaryItemItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4568,7 +4568,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.Item.DocumentItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.Item.DocumentItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4593,7 +4593,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentBlueprint.Item.DocumentBlueprintItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentBlueprint.Item.DocumentBlueprintItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4618,7 +4618,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.Item.DocumentTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.Item.DocumentTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4658,7 +4658,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.Item.DocumentTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.DocumentType.Item.DocumentTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4718,7 +4718,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.Item.DocumentItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.Item.DocumentItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4743,7 +4743,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Language.Item.LanguageItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Language.Item.LanguageItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4787,7 +4787,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.Item.MediaItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.Item.MediaItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4812,7 +4812,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.Item.MediaTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.Item.MediaTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4847,7 +4847,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.Item.MediaTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.Item.MediaTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4877,7 +4877,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.Item.MediaTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.Item.MediaTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4912,7 +4912,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.Item.MediaTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.Item.MediaTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4972,7 +4972,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.Item.MediaItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.Item.MediaItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -4997,7 +4997,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Member.Item.MemberItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Member.Item.MemberItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5022,7 +5022,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MemberGroup.Item.MemberGroupItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MemberGroup.Item.MemberGroupItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5047,7 +5047,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MemberType.Item.MemberTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MemberType.Item.MemberTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5082,7 +5082,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MemberType.Item.MemberTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MemberType.Item.MemberTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5122,7 +5122,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Member.Item.MemberItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Member.Item.MemberItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5147,7 +5147,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.PartialView.Item.PartialViewItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.PartialView.Item.PartialViewItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5172,7 +5172,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.RelationType.Item.RelationTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.RelationType.Item.RelationTypeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5197,7 +5197,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Script.Item.ScriptItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Script.Item.ScriptItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5222,7 +5222,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.StaticFile.Item.StaticFileItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.StaticFile.Item.StaticFileItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5247,7 +5247,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Stylesheet.Item.StylesheetItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Stylesheet.Item.StylesheetItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5272,7 +5272,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Template.Item.TemplateItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Template.Item.TemplateItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5307,7 +5307,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Template.Item.TemplateItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Core.Models.PagedModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Template.Item.TemplateItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5332,7 +5332,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.User.Item.UserItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.User.Item.UserItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5357,7 +5357,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.UserGroup.Item.UserGroupItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.UserGroup.Item.UserGroupItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5382,7 +5382,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Webhook.Item.WebhookItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Webhook.Item.WebhookItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5412,7 +5412,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Language.LanguageResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Language.LanguageResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5594,7 +5594,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.LogViewer.LoggerResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.LogViewer.LoggerResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5687,7 +5687,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.LogViewer.LogMessageResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.LogViewer.LogMessageResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5735,7 +5735,7 @@
         "StatusCode": 400
       },
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.LogViewer.LogTemplateResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.LogViewer.LogTemplateResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5765,7 +5765,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.LogViewer.SavedLogSearchResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.LogViewer.SavedLogSearchResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5912,7 +5912,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Manifest.ManifestResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Manifest.ManifestResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5931,7 +5931,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Manifest.ManifestResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Manifest.ManifestResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -5950,7 +5950,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Manifest.ManifestResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Manifest.ManifestResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -6172,7 +6172,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.AllowedMediaType, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.AllowedMediaType, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -6205,7 +6205,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.MediaTypeCompositionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.MediaTypeCompositionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -6413,7 +6413,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.AllowedMediaType, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.AllowedMediaType, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -6438,7 +6438,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.AvailableMediaTypeCompositionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MediaType.AvailableMediaTypeCompositionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -6806,7 +6806,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.AuditLog.AuditLogResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.AuditLog.AuditLogResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -6914,7 +6914,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.TrackedReferences.IReferenceResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.TrackedReferences.IReferenceResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -6949,7 +6949,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.ReferenceByIdModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.ReferenceByIdModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -7027,7 +7027,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.ReferenceByIdModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.ReferenceByIdModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -7109,7 +7109,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.MediaUrlInfoResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.MediaUrlInfoResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -7215,7 +7215,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MemberGroup.MemberGroupResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.MemberGroup.MemberGroupResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -7525,7 +7525,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MemberType.MemberTypeCompositionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MemberType.MemberTypeCompositionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -7604,7 +7604,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MemberType.AvailableMemberTypeCompositionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.MemberType.AvailableMemberTypeCompositionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -7772,7 +7772,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.TrackedReferences.IReferenceResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.TrackedReferences.IReferenceResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -7807,7 +7807,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.ReferenceByIdModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.ReferenceByIdModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -7885,7 +7885,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.ReferenceByIdModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.ReferenceByIdModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -8034,7 +8034,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.RelationType.ObjectTypeResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.RelationType.ObjectTypeResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -8156,7 +8156,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Package.PackageDefinitionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Package.PackageDefinitionResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -8355,7 +8355,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Package.PackageMigrationStatusResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Package.PackageMigrationStatusResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -8689,7 +8689,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.PartialView.Snippets.PartialViewSnippetItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.PartialView.Snippets.PartialViewSnippetItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -9065,7 +9065,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.RecycleBin.DocumentRecycleBinItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.RecycleBin.DocumentRecycleBinItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -9095,7 +9095,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.TrackedReferences.IReferenceResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.TrackedReferences.IReferenceResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -9125,7 +9125,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.RecycleBin.DocumentRecycleBinItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.RecycleBin.DocumentRecycleBinItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -9165,7 +9165,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.RecycleBin.DocumentRecycleBinItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Document.RecycleBin.DocumentRecycleBinItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -9346,7 +9346,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.RecycleBin.MediaRecycleBinItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.RecycleBin.MediaRecycleBinItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -9376,7 +9376,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.TrackedReferences.IReferenceResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.TrackedReferences.IReferenceResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -9406,7 +9406,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.RecycleBin.MediaRecycleBinItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.RecycleBin.MediaRecycleBinItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -9446,7 +9446,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.RecycleBin.MediaRecycleBinItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Media.RecycleBin.MediaRecycleBinItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -9489,7 +9489,7 @@
         "StatusCode": 400
       },
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.RedirectUrlManagement.RedirectUrlResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.RedirectUrlManagement.RedirectUrlResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -9524,7 +9524,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.RedirectUrlManagement.RedirectUrlResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.RedirectUrlManagement.RedirectUrlResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -9611,7 +9611,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.RelationType.RelationTypeResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.RelationType.RelationTypeResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -9679,7 +9679,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Relation.RelationResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Relation.RelationResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -10022,7 +10022,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Searcher.SearcherResponse, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Searcher.SearcherResponse, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -10062,7 +10062,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Searcher.SearchResultResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Searcher.SearchResultResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -10228,7 +10228,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Segment.SegmentResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Segment.SegmentResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -10688,7 +10688,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tag.TagResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tag.TagResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -10718,7 +10718,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Telemetry.TelemetryResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Telemetry.TelemetryResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11140,7 +11140,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DataTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DataTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11180,7 +11180,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DataTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DataTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11215,7 +11215,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DataTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DataTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11255,7 +11255,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DataTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DataTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11280,7 +11280,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11315,7 +11315,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11345,7 +11345,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11370,7 +11370,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentBlueprintTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentBlueprintTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11410,7 +11410,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentBlueprintTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentBlueprintTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11445,7 +11445,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentBlueprintTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentBlueprintTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11485,7 +11485,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentBlueprintTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentBlueprintTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11510,7 +11510,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11550,7 +11550,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11585,7 +11585,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11625,7 +11625,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11650,7 +11650,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11690,7 +11690,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11725,7 +11725,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11765,7 +11765,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.DocumentTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11790,7 +11790,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11830,7 +11830,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11865,7 +11865,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11905,7 +11905,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11930,7 +11930,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -11970,7 +11970,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12005,7 +12005,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12045,7 +12045,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MediaTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12075,7 +12075,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12105,7 +12105,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MemberTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MemberTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12140,7 +12140,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MemberTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.MemberTypeTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12165,7 +12165,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12200,7 +12200,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12230,7 +12230,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12265,7 +12265,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12290,7 +12290,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12325,7 +12325,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12355,7 +12355,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12390,7 +12390,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12415,7 +12415,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12450,7 +12450,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12480,7 +12480,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12505,7 +12505,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12540,7 +12540,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12570,7 +12570,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12605,7 +12605,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.FileSystemTreeItemPresentationModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12630,7 +12630,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12665,7 +12665,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12695,7 +12695,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12730,7 +12730,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.SubsetViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Tree.NamedEntityTreeItemResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12887,7 +12887,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.User.UserResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.User.UserResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -12973,7 +12973,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.UserData.UserDataResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.UserData.UserDataResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -13169,7 +13169,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.UserGroup.UserGroupResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.UserGroup.UserGroupResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -13476,7 +13476,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Core.Models.UserTwoFactorProviderModel, Umbraco.Core, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Core.Models.UserTwoFactorProviderModel, Umbraco.Core, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -13877,7 +13877,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Core.Models.UserTwoFactorProviderModel, Umbraco.Core, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Core.Models.UserTwoFactorProviderModel, Umbraco.Core, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -14105,7 +14105,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Core.Models.UserExternalLoginProviderModel, Umbraco.Core, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Core.Models.UserExternalLoginProviderModel, Umbraco.Core, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -14163,7 +14163,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.User.Current.UserPermissionsResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Umbraco.Cms.Api.Management.ViewModels.User.Current.UserPermissionsResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -14517,7 +14517,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Webhook.WebhookResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Webhook.WebhookResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -14704,7 +14704,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Webhook.Logs.WebhookLogResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Webhook.Logs.WebhookLogResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -14734,7 +14734,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Webhook.WebhookEventViewModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Webhook.WebhookEventViewModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"
@@ -14764,7 +14764,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Webhook.Logs.WebhookLogResponseModel, Umbraco.Cms.Api.Management, Version=16.3.3.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Umbraco.Cms.Api.Common.ViewModels.Pagination.PagedViewModel\u00601[[Umbraco.Cms.Api.Management.ViewModels.Webhook.Logs.WebhookLogResponseModel, Umbraco.Cms.Api.Management, Version=16.3.4.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "application/json",
           "application/json"

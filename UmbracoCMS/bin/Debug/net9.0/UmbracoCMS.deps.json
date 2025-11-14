@@ -38,7 +38,7 @@
       "UmbracoCMS/1.0.0": {
         "dependencies": {
           "Microsoft.ICU.ICU4C.Runtime": "72.1.0.3",
-          "Umbraco.Cms": "16.3.3",
+          "Umbraco.Cms": "16.3.4",
           "uSync": "16.1.0",
           "Microsoft.AspNetCore.Antiforgery": "9.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "9.0.0.0",
@@ -3868,17 +3868,17 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "Umbraco.Cms/16.3.3": {
+      "Umbraco.Cms/16.3.4": {
         "dependencies": {
-          "Umbraco.Cms.Imaging.ImageSharp": "16.3.3",
-          "Umbraco.Cms.Persistence.EFCore.SqlServer": "16.3.3",
-          "Umbraco.Cms.Persistence.EFCore.Sqlite": "16.3.3",
-          "Umbraco.Cms.Persistence.SqlServer": "16.3.3",
-          "Umbraco.Cms.Persistence.Sqlite": "16.3.3",
-          "Umbraco.Cms.Targets": "16.3.3"
+          "Umbraco.Cms.Imaging.ImageSharp": "16.3.4",
+          "Umbraco.Cms.Persistence.EFCore.SqlServer": "16.3.4",
+          "Umbraco.Cms.Persistence.EFCore.Sqlite": "16.3.4",
+          "Umbraco.Cms.Persistence.SqlServer": "16.3.4",
+          "Umbraco.Cms.Persistence.Sqlite": "16.3.4",
+          "Umbraco.Cms.Targets": "16.3.4"
         }
       },
-      "Umbraco.Cms.Api.Common/16.3.3": {
+      "Umbraco.Cms.Api.Common/16.3.4": {
         "dependencies": {
           "Asp.Versioning.Mvc": "8.1.0",
           "Asp.Versioning.Mvc.ApiExplorer": "8.1.0",
@@ -3886,53 +3886,53 @@
           "OpenIddict.Abstractions": "6.2.1",
           "OpenIddict.AspNetCore": "6.2.1",
           "Swashbuckle.AspNetCore": "8.1.1",
-          "Umbraco.Cms.Core": "16.3.3",
-          "Umbraco.Cms.Web.Common": "16.3.3"
+          "Umbraco.Cms.Core": "16.3.4",
+          "Umbraco.Cms.Web.Common": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Cms.Api.Common.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Cms.Api.Common.dll": {}
         }
       },
-      "Umbraco.Cms.Api.Delivery/16.3.3": {
+      "Umbraco.Cms.Api.Delivery/16.3.4": {
         "dependencies": {
-          "Umbraco.Cms.Api.Common": "16.3.3",
-          "Umbraco.Cms.Web.Common": "16.3.3"
+          "Umbraco.Cms.Api.Common": "16.3.4",
+          "Umbraco.Cms.Web.Common": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Cms.Api.Delivery.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Cms.Api.Delivery.dll": {}
         }
       },
-      "Umbraco.Cms.Api.Management/16.3.3": {
+      "Umbraco.Cms.Api.Management/16.3.4": {
         "dependencies": {
           "JsonPatch.Net": "3.3.0",
           "Swashbuckle.AspNetCore": "8.1.1",
-          "Umbraco.Cms.Api.Common": "16.3.3",
-          "Umbraco.Cms.Infrastructure": "16.3.3",
-          "Umbraco.Cms.PublishedCache.HybridCache": "16.3.3"
+          "Umbraco.Cms.Api.Common": "16.3.4",
+          "Umbraco.Cms.Infrastructure": "16.3.4",
+          "Umbraco.Cms.PublishedCache.HybridCache": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Cms.Api.Management.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Cms.Api.Management.dll": {}
         }
       },
-      "Umbraco.Cms.Core/16.3.3": {
+      "Umbraco.Cms.Core/16.3.4": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "9.0.4",
           "Microsoft.Extensions.Caching.Memory": "9.0.4",
@@ -3948,48 +3948,48 @@
         },
         "runtime": {
           "lib/net9.0/Umbraco.Core.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Core.dll": {}
         }
       },
-      "Umbraco.Cms.Examine.Lucene/16.3.3": {
+      "Umbraco.Cms.Examine.Lucene/16.3.4": {
         "dependencies": {
           "Examine": "3.7.1",
           "Lucene.Net.Replicator": "4.8.0-beta00017",
           "System.Security.Cryptography.Xml": "9.0.4",
-          "Umbraco.Cms.Infrastructure": "16.3.3"
+          "Umbraco.Cms.Infrastructure": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Examine.Lucene.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Examine.Lucene.dll": {}
         }
       },
-      "Umbraco.Cms.Imaging.ImageSharp/16.3.3": {
+      "Umbraco.Cms.Imaging.ImageSharp/16.3.4": {
         "dependencies": {
           "SixLabors.ImageSharp": "3.1.11",
           "SixLabors.ImageSharp.Web": "3.1.5",
-          "Umbraco.Cms.Web.Common": "16.3.3"
+          "Umbraco.Cms.Web.Common": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Cms.Imaging.ImageSharp.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Cms.Imaging.ImageSharp.dll": {}
         }
       },
-      "Umbraco.Cms.Infrastructure/16.3.3": {
+      "Umbraco.Cms.Infrastructure/16.3.4": {
         "dependencies": {
           "Examine.Core": "3.7.1",
           "HtmlAgilityPack": "1.12.1",
@@ -4016,20 +4016,20 @@
           "Serilog.Sinks.File": "6.0.0",
           "Serilog.Sinks.Map": "2.0.0",
           "System.Text.RegularExpressions": "4.3.1",
-          "Umbraco.Cms.Core": "16.3.3",
+          "Umbraco.Cms.Core": "16.3.4",
           "NCrontab": "3.3.3"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Infrastructure.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Infrastructure.dll": {}
         }
       },
-      "Umbraco.Cms.Persistence.EFCore/16.3.3": {
+      "Umbraco.Cms.Persistence.EFCore/16.3.4": {
         "dependencies": {
           "Azure.Identity": "1.13.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4",
@@ -4038,127 +4038,127 @@
           "OpenIddict.EntityFrameworkCore": "6.2.1",
           "System.Runtime.Caching": "9.0.4",
           "System.Text.Encodings.Web": "9.0.4",
-          "Umbraco.Cms.Core": "16.3.3",
-          "Umbraco.Cms.Infrastructure": "16.3.3"
+          "Umbraco.Cms.Core": "16.3.4",
+          "Umbraco.Cms.Infrastructure": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Cms.Persistence.EFCore.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Cms.Persistence.EFCore.dll": {}
         }
       },
-      "Umbraco.Cms.Persistence.EFCore.Sqlite/16.3.3": {
+      "Umbraco.Cms.Persistence.EFCore.Sqlite/16.3.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
-          "Umbraco.Cms.Persistence.EFCore": "16.3.3"
+          "Umbraco.Cms.Persistence.EFCore": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Cms.Persistence.EFCore.Sqlite.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Cms.Persistence.EFCore.Sqlite.dll": {}
         }
       },
-      "Umbraco.Cms.Persistence.EFCore.SqlServer/16.3.3": {
+      "Umbraco.Cms.Persistence.EFCore.SqlServer/16.3.4": {
         "dependencies": {
           "Azure.Identity": "1.13.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4",
           "Microsoft.IdentityModel.JsonWebTokens": "8.8.0",
           "System.Runtime.Caching": "9.0.4",
-          "Umbraco.Cms.Persistence.EFCore": "16.3.3"
+          "Umbraco.Cms.Persistence.EFCore": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Cms.Persistence.EFCore.SqlServer.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Cms.Persistence.EFCore.SqlServer.dll": {}
         }
       },
-      "Umbraco.Cms.Persistence.Sqlite/16.3.3": {
+      "Umbraco.Cms.Persistence.Sqlite/16.3.4": {
         "dependencies": {
           "Microsoft.Data.Sqlite": "9.0.4",
-          "Umbraco.Cms.Infrastructure": "16.3.3"
+          "Umbraco.Cms.Infrastructure": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Cms.Persistence.Sqlite.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Cms.Persistence.Sqlite.dll": {}
         }
       },
-      "Umbraco.Cms.Persistence.SqlServer/16.3.3": {
+      "Umbraco.Cms.Persistence.SqlServer/16.3.4": {
         "dependencies": {
           "Azure.Identity": "1.13.2",
           "Microsoft.Data.SqlClient": "6.0.1",
           "NPoco.SqlServer": "5.7.1",
           "System.Runtime.Caching": "9.0.4",
           "System.Text.Encodings.Web": "9.0.4",
-          "Umbraco.Cms.Infrastructure": "16.3.3"
+          "Umbraco.Cms.Infrastructure": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Cms.Persistence.SqlServer.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Cms.Persistence.SqlServer.dll": {}
         }
       },
-      "Umbraco.Cms.PublishedCache.HybridCache/16.3.3": {
+      "Umbraco.Cms.PublishedCache.HybridCache/16.3.4": {
         "dependencies": {
           "K4os.Compression.LZ4": "1.3.8",
           "MessagePack": "3.1.3",
           "Microsoft.Extensions.Caching.Hybrid": "9.4.0",
-          "Umbraco.Cms.Core": "16.3.3",
-          "Umbraco.Cms.Infrastructure": "16.3.3"
+          "Umbraco.Cms.Core": "16.3.4",
+          "Umbraco.Cms.Infrastructure": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.PublishedCache.HybridCache.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.PublishedCache.HybridCache.dll": {}
         }
       },
-      "Umbraco.Cms.StaticAssets/16.3.3": {
+      "Umbraco.Cms.StaticAssets/16.3.4": {
         "dependencies": {
-          "Umbraco.Cms.Api.Management": "16.3.3",
-          "Umbraco.Cms.Web.Website": "16.3.3"
+          "Umbraco.Cms.Api.Management": "16.3.4",
+          "Umbraco.Cms.Web.Website": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Cms.StaticAssets.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Cms.StaticAssets.dll": {}
         }
       },
-      "Umbraco.Cms.Targets/16.3.3": {
+      "Umbraco.Cms.Targets/16.3.4": {
         "dependencies": {
-          "Umbraco.Cms.Api.Delivery": "16.3.3",
-          "Umbraco.Cms.Api.Management": "16.3.3",
-          "Umbraco.Cms.StaticAssets": "16.3.3"
+          "Umbraco.Cms.Api.Delivery": "16.3.4",
+          "Umbraco.Cms.Api.Management": "16.3.4",
+          "Umbraco.Cms.StaticAssets": "16.3.4"
         }
       },
-      "Umbraco.Cms.Web.Common/16.3.3": {
+      "Umbraco.Cms.Web.Common/16.3.4": {
         "dependencies": {
           "Asp.Versioning.Mvc": "8.1.0",
           "Asp.Versioning.Mvc.ApiExplorer": "8.1.0",
@@ -4170,27 +4170,27 @@
           "System.Net.Http": "4.3.4",
           "System.Text.Encodings.Web": "9.0.4",
           "System.Text.RegularExpressions": "4.3.1",
-          "Umbraco.Cms.Examine.Lucene": "16.3.3",
-          "Umbraco.Cms.PublishedCache.HybridCache": "16.3.3"
+          "Umbraco.Cms.Examine.Lucene": "16.3.4",
+          "Umbraco.Cms.PublishedCache.HybridCache": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Web.Common.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
           "lib/net9.0/Umbraco.Web.Common.dll": {}
         }
       },
-      "Umbraco.Cms.Web.Website/16.3.3": {
+      "Umbraco.Cms.Web.Website/16.3.4": {
         "dependencies": {
-          "Umbraco.Cms.Web.Common": "16.3.3"
+          "Umbraco.Cms.Web.Common": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/Umbraco.Web.Website.dll": {
-            "assemblyVersion": "16.3.3.0",
-            "fileVersion": "16.3.3.3"
+            "assemblyVersion": "16.3.4.0",
+            "fileVersion": "16.3.4.5"
           }
         },
         "compile": {
@@ -4231,7 +4231,7 @@
       },
       "uSync.Backoffice.Management.Api/16.1.0": {
         "dependencies": {
-          "Umbraco.Cms.Api.Management": "16.3.3",
+          "Umbraco.Cms.Api.Management": "16.3.4",
           "uSync.BackOffice": "16.1.0"
         },
         "runtime": {
@@ -4246,7 +4246,7 @@
       },
       "uSync.Backoffice.Management.Client/16.1.0": {
         "dependencies": {
-          "Umbraco.Cms.Infrastructure": "16.3.3",
+          "Umbraco.Cms.Infrastructure": "16.3.4",
           "uSync.BackOffice": "16.1.0"
         },
         "runtime": {
@@ -4276,8 +4276,8 @@
       },
       "uSync.Core/16.1.0": {
         "dependencies": {
-          "Umbraco.Cms.Api.Management": "16.3.3",
-          "Umbraco.Cms.Web.Website": "16.3.3"
+          "Umbraco.Cms.Api.Management": "16.3.4",
+          "Umbraco.Cms.Web.Website": "16.3.4"
         },
         "runtime": {
           "lib/net9.0/uSync.Core.dll": {
@@ -8041,131 +8041,131 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "Umbraco.Cms/16.3.3": {
+    "Umbraco.Cms/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ctpSX1wPPb7Wp5Ak+lKE5kMttJRi+QxKlBaHU0U/MaXqQ5lRD94egUlx6TCjK7t1f09xxAmuZmzMSQGDzR3FpQ==",
-      "path": "umbraco.cms/16.3.3",
-      "hashPath": "umbraco.cms.16.3.3.nupkg.sha512"
+      "sha512": "sha512-jP84RCSMtqpyxa8vVeBArxoaS40Bx5t+ozqmVmApXs8ngqsWWcgTuzdp4CEiNmci28Wqk6r0aQEw96cuZNggfQ==",
+      "path": "umbraco.cms/16.3.4",
+      "hashPath": "umbraco.cms.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Api.Common/16.3.3": {
+    "Umbraco.Cms.Api.Common/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3DyPPauZkZUkyTPbEoFAjQwROQcKkpZ9k4bhQ0Z0bmgMjWkqC2xdmlMDnvV6Gb9B7FYQAX6uUmo32I93y6xxpg==",
-      "path": "umbraco.cms.api.common/16.3.3",
-      "hashPath": "umbraco.cms.api.common.16.3.3.nupkg.sha512"
+      "sha512": "sha512-ZpSJh4btTYF4OLn7ArueG9uzFiNJ1+AnDvGY7XcC8Jax/glYqAI794MYwKly5kMLd0HMMrFckhm/ppSJ76kJrw==",
+      "path": "umbraco.cms.api.common/16.3.4",
+      "hashPath": "umbraco.cms.api.common.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Api.Delivery/16.3.3": {
+    "Umbraco.Cms.Api.Delivery/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-U32C1j+aY3Ojq1MPKMhBxmXWcu7ur4klVOBINNbirtD0e7zB+gV7J2SybXOZDip4W61Cq66pJ1LGiuUXXUC6Og==",
-      "path": "umbraco.cms.api.delivery/16.3.3",
-      "hashPath": "umbraco.cms.api.delivery.16.3.3.nupkg.sha512"
+      "sha512": "sha512-PbR975IJbCqPA4e35Nj3s0aDKXmVroLJSINlohBheD+fQJXrAVK7l3iDDsHBUwXexp3cjkj2LgTAzObd9cHrAg==",
+      "path": "umbraco.cms.api.delivery/16.3.4",
+      "hashPath": "umbraco.cms.api.delivery.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Api.Management/16.3.3": {
+    "Umbraco.Cms.Api.Management/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2e4UFQut6zc7BoBiCLCI9TsIAfkf9RB+trc/sIneVqDC2rLQktF8P/vHAQTL0unsNLjc9oxa7Ew2tM4+8MT1VQ==",
-      "path": "umbraco.cms.api.management/16.3.3",
-      "hashPath": "umbraco.cms.api.management.16.3.3.nupkg.sha512"
+      "sha512": "sha512-+VX67mKFW4GKHijzp45TNdw/5Z4Y/E6dlhCnMQfKM1Wl7VJubz0keKPojK1VGB3P5kbpkdMaL+9CYyCKygo19Q==",
+      "path": "umbraco.cms.api.management/16.3.4",
+      "hashPath": "umbraco.cms.api.management.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Core/16.3.3": {
+    "Umbraco.Cms.Core/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iYhXhRrN9c4A5/1J0Yn9YLFhaZfzv6sZW3smFk1jBicdEaFVo3Z7VI3Jj2KDyrW7qmPdElw5Ah1ZxtUfR1CiVg==",
-      "path": "umbraco.cms.core/16.3.3",
-      "hashPath": "umbraco.cms.core.16.3.3.nupkg.sha512"
+      "sha512": "sha512-PK4Y0zVhzAXyxXnybRbG+grOjDvoL7CeVWPIly4NddeGrn0C13rgwoMOLKnaegM9BYrYTDkkk4inFHleYsh1kA==",
+      "path": "umbraco.cms.core/16.3.4",
+      "hashPath": "umbraco.cms.core.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Examine.Lucene/16.3.3": {
+    "Umbraco.Cms.Examine.Lucene/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nJ6K4gq3yREgA8ysyuoj9SORJFKBIWf2oPZPmMU8xBuzV7ZO3swGcaaY0FSr7jbEK248zuqXK6/GlyN7wX5vBQ==",
-      "path": "umbraco.cms.examine.lucene/16.3.3",
-      "hashPath": "umbraco.cms.examine.lucene.16.3.3.nupkg.sha512"
+      "sha512": "sha512-Tm8pGAihdGoSzFacP/52PwiNrDFnY6CefD6FEE2usrru968JNe4iY3ikiO+BWPReAjwKtplUCTt7ul5B5tMdpg==",
+      "path": "umbraco.cms.examine.lucene/16.3.4",
+      "hashPath": "umbraco.cms.examine.lucene.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Imaging.ImageSharp/16.3.3": {
+    "Umbraco.Cms.Imaging.ImageSharp/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UhcWR61eC0UHw9KZkYXbqVholRdiB/3wo4itqTgAEXakyCsLedhndbDYchGa7xpx4KWpDRZPIfS/Kr3wojTm1w==",
-      "path": "umbraco.cms.imaging.imagesharp/16.3.3",
-      "hashPath": "umbraco.cms.imaging.imagesharp.16.3.3.nupkg.sha512"
+      "sha512": "sha512-ts4reQooBqxoW76CJ9s8UvOr3k3CWw8bJk4Cn+JCDyvTG7nE3N13BAW6yIRTaL9mk302uvuazFqdWYxZ+F3bjg==",
+      "path": "umbraco.cms.imaging.imagesharp/16.3.4",
+      "hashPath": "umbraco.cms.imaging.imagesharp.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Infrastructure/16.3.3": {
+    "Umbraco.Cms.Infrastructure/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sM4kGZj9wQV2pyN/5RHOzci33to3odn1mbaqcbg5nrqc2hLJXD9OlCK2XzLrgrkonQS5BScPnME+QZj+S0D+tw==",
-      "path": "umbraco.cms.infrastructure/16.3.3",
-      "hashPath": "umbraco.cms.infrastructure.16.3.3.nupkg.sha512"
+      "sha512": "sha512-3DEurqVjwob7XVtruKr9FkgOhIeXPTDbEFmfkWN27zv3hF7lWXCiMLFEV+19m+trY1eLUc1yfTvLN4qIildKFw==",
+      "path": "umbraco.cms.infrastructure/16.3.4",
+      "hashPath": "umbraco.cms.infrastructure.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Persistence.EFCore/16.3.3": {
+    "Umbraco.Cms.Persistence.EFCore/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-SiepiRK5WIOf7wdS/kC8tb0f+tHSMmh31cbjt1UAG9zjBu5nZ5fNCoub0vmMXBneYyhL1AVpnV4zuIxPRHNBag==",
-      "path": "umbraco.cms.persistence.efcore/16.3.3",
-      "hashPath": "umbraco.cms.persistence.efcore.16.3.3.nupkg.sha512"
+      "sha512": "sha512-rYNzsnmlvxXM0dVjkXVpar1MW43XNIh7/5T1Ti2O2wTdCO7XlIEPWsw1kO4N2dcSX2sNWPbedw07puostQJCSQ==",
+      "path": "umbraco.cms.persistence.efcore/16.3.4",
+      "hashPath": "umbraco.cms.persistence.efcore.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Persistence.EFCore.Sqlite/16.3.3": {
+    "Umbraco.Cms.Persistence.EFCore.Sqlite/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-N67T+h8FTvb7yHa7Qk9H5xvjp5Hkzy9DqgYl8W71bw8m0hW9iH/ZBmVNuYjVdKi8byxYV/V3/jUfdUaTZ6v61g==",
-      "path": "umbraco.cms.persistence.efcore.sqlite/16.3.3",
-      "hashPath": "umbraco.cms.persistence.efcore.sqlite.16.3.3.nupkg.sha512"
+      "sha512": "sha512-dqmPId+yWOlcM5+ijZhMlCgXPMXvj4rkRponKhr+YxsZ7BGt7bx1sX3BxuaPjCOuyxF2d2GqIWAyEhqqDQkePg==",
+      "path": "umbraco.cms.persistence.efcore.sqlite/16.3.4",
+      "hashPath": "umbraco.cms.persistence.efcore.sqlite.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Persistence.EFCore.SqlServer/16.3.3": {
+    "Umbraco.Cms.Persistence.EFCore.SqlServer/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tnJs8DUP8pKBeUqDCDeeIDPiLnmX7TnPXMJnGbePzRx/ooZjJIyFmE1ZWmcukaMQGI66WwGbxAbIxrORU3rlJg==",
-      "path": "umbraco.cms.persistence.efcore.sqlserver/16.3.3",
-      "hashPath": "umbraco.cms.persistence.efcore.sqlserver.16.3.3.nupkg.sha512"
+      "sha512": "sha512-Qsv8zW3esb/9xYmu/xMPYvP+2L8ta1stYrD/TdVS6ahQF/vwWlhGVvysnPXxNDLCencGaMJPSRRlzrRryiQa1g==",
+      "path": "umbraco.cms.persistence.efcore.sqlserver/16.3.4",
+      "hashPath": "umbraco.cms.persistence.efcore.sqlserver.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Persistence.Sqlite/16.3.3": {
+    "Umbraco.Cms.Persistence.Sqlite/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZgTCmlu9NVMS15hPe3+9hba4ZSb+VdLMUltrFBWNVJWv2OJqRLYVZBaFa31GadWoCn0lzGpjHCAZDZ10vSVfSg==",
-      "path": "umbraco.cms.persistence.sqlite/16.3.3",
-      "hashPath": "umbraco.cms.persistence.sqlite.16.3.3.nupkg.sha512"
+      "sha512": "sha512-VyWQ0zv+7zRlxIONttnHEdksmQTnpCRdoMZBT+UKc7NXMKmvj84qT8PUiIuRGEicdESuLcgSNQY4ReS6lYeJxQ==",
+      "path": "umbraco.cms.persistence.sqlite/16.3.4",
+      "hashPath": "umbraco.cms.persistence.sqlite.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Persistence.SqlServer/16.3.3": {
+    "Umbraco.Cms.Persistence.SqlServer/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-l9wDz3Xx4TnOYSz2z1i5BD0nIICnaactOYYobixDmUbyMzfTMf439GHMos9trpT5XslqrlxwhTfEf8THG/64dw==",
-      "path": "umbraco.cms.persistence.sqlserver/16.3.3",
-      "hashPath": "umbraco.cms.persistence.sqlserver.16.3.3.nupkg.sha512"
+      "sha512": "sha512-i8scozcOmQEZv83OMF0/60Q2A3oa3xeMMV3LrmQg6mR12HVT70WM6dDqwdjn6PRle+KrosUOF/nxoiKJMqI55w==",
+      "path": "umbraco.cms.persistence.sqlserver/16.3.4",
+      "hashPath": "umbraco.cms.persistence.sqlserver.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.PublishedCache.HybridCache/16.3.3": {
+    "Umbraco.Cms.PublishedCache.HybridCache/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-S3I4K9x3xLsxYv9g7GZIFxzUUny+Tb9Ks/6MqU0vA687lTe+bd2opKL1Oqh9Yyabck6BODbKISSi0iA9odw6Lg==",
-      "path": "umbraco.cms.publishedcache.hybridcache/16.3.3",
-      "hashPath": "umbraco.cms.publishedcache.hybridcache.16.3.3.nupkg.sha512"
+      "sha512": "sha512-EZgGUktsjnzPJA+luSzFUDjnr1dUN5HMiC4zXEH7/PtnK/TPt6esQL7GYLIIck744SfrAVgBNi1YN86aq/lhAw==",
+      "path": "umbraco.cms.publishedcache.hybridcache/16.3.4",
+      "hashPath": "umbraco.cms.publishedcache.hybridcache.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.StaticAssets/16.3.3": {
+    "Umbraco.Cms.StaticAssets/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cqs24a6mWpjf23AnYK15zpbvKUI79IFkktjkjYcHv3mvX6KArAx/AG7vKyGtRh8EAuJA+xeQAeBVKs6KLXVf+A==",
-      "path": "umbraco.cms.staticassets/16.3.3",
-      "hashPath": "umbraco.cms.staticassets.16.3.3.nupkg.sha512"
+      "sha512": "sha512-JdeK8KMQOGd4j56+S7VSNSxHxSValrKxkPsK5tJUOD6N8Xvj20PWPgHsakuTdtVgKL/HIUuWuku8PJzSUgOhhA==",
+      "path": "umbraco.cms.staticassets/16.3.4",
+      "hashPath": "umbraco.cms.staticassets.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Targets/16.3.3": {
+    "Umbraco.Cms.Targets/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UfxIkknLppzG2bdKoACG0A85AUxGiNr07RkTuU9ziDDvZfE8RmlMVwFwKBv6I4d3ui4t9zgmWGbxoA5EEkiDdw==",
-      "path": "umbraco.cms.targets/16.3.3",
-      "hashPath": "umbraco.cms.targets.16.3.3.nupkg.sha512"
+      "sha512": "sha512-0q9h27COWd+yw9kNsGjx80DvxsgOBuZzWPVrmqexK9aIRi0zNJ1Eq2gtZM1DGruALc7ctvrGD1tO1ZRSHVaGxg==",
+      "path": "umbraco.cms.targets/16.3.4",
+      "hashPath": "umbraco.cms.targets.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Web.Common/16.3.3": {
+    "Umbraco.Cms.Web.Common/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-R0uG1qXMIkI52satcItlCslJ3qLNccXnTmNN88NVvob1zFTn4zxu37aOgGNNL+bqwW9s0V2EZGJRMssNeWP8hA==",
-      "path": "umbraco.cms.web.common/16.3.3",
-      "hashPath": "umbraco.cms.web.common.16.3.3.nupkg.sha512"
+      "sha512": "sha512-DXUMfM4bmuJCL1vFLondfFSoKNrA+4hp6JT/GvhfOpgEBM7zvTd/ITKREf3h44mVNPf9HI2PUIJr2CM5Bu9xxQ==",
+      "path": "umbraco.cms.web.common/16.3.4",
+      "hashPath": "umbraco.cms.web.common.16.3.4.nupkg.sha512"
     },
-    "Umbraco.Cms.Web.Website/16.3.3": {
+    "Umbraco.Cms.Web.Website/16.3.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fId2/M0Hxa2FLWwgdNu6MnnwRvKtpcU1wY4BQ17V/ysmcO8ahxpTeqWseyGcfp8QaU43BKYSkX+PV3hHyxyT3A==",
-      "path": "umbraco.cms.web.website/16.3.3",
-      "hashPath": "umbraco.cms.web.website.16.3.3.nupkg.sha512"
+      "sha512": "sha512-1Jw44RC6JkGa5WjvuCnTH4eZCAJB/+f9lOoRkKxDdUQE5Ae22liNhXCCz6uixyCvQOAvOHovjfi4I48o2ogKKg==",
+      "path": "umbraco.cms.web.website/16.3.4",
+      "hashPath": "umbraco.cms.web.website.16.3.4.nupkg.sha512"
     },
     "uSync/16.1.0": {
       "type": "package",
