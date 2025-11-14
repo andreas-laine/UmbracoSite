@@ -57,7 +57,7 @@
             },
             "Umbraco.Cms": {
               "target": "Package",
-              "version": "[16.3.3, )"
+              "version": "[16.3.4, )"
             },
             "uSync": {
               "target": "Package",

@@ -19,8 +19,8 @@
     <Import Project="$(NuGetPackageRoot)usync.backoffice.targets\16.1.0\buildTransitive\uSync.BackOffice.Targets.props" Condition="Exists('$(NuGetPackageRoot)usync.backoffice.targets\16.1.0\buildTransitive\uSync.BackOffice.Targets.props')" />
     <Import Project="$(NuGetPackageRoot)usync.backoffice.management.client\16.1.0\buildTransitive\uSync.Backoffice.Management.Client.props" Condition="Exists('$(NuGetPackageRoot)usync.backoffice.management.client\16.1.0\buildTransitive\uSync.Backoffice.Management.Client.props')" />
     <Import Project="$(NuGetPackageRoot)usync.backoffice.management.api\16.1.0\buildTransitive\uSync.Backoffice.Management.Api.props" Condition="Exists('$(NuGetPackageRoot)usync.backoffice.management.api\16.1.0\buildTransitive\uSync.Backoffice.Management.Api.props')" />
-    <Import Project="$(NuGetPackageRoot)umbraco.cms.staticassets\16.3.3\buildTransitive\Umbraco.Cms.StaticAssets.props" Condition="Exists('$(NuGetPackageRoot)umbraco.cms.staticassets\16.3.3\buildTransitive\Umbraco.Cms.StaticAssets.props')" />
-    <Import Project="$(NuGetPackageRoot)umbraco.cms.targets\16.3.3\buildTransitive\Umbraco.Cms.Targets.props" Condition="Exists('$(NuGetPackageRoot)umbraco.cms.targets\16.3.3\buildTransitive\Umbraco.Cms.Targets.props')" />
+    <Import Project="$(NuGetPackageRoot)umbraco.cms.staticassets\16.3.4\buildTransitive\Umbraco.Cms.StaticAssets.props" Condition="Exists('$(NuGetPackageRoot)umbraco.cms.staticassets\16.3.4\buildTransitive\Umbraco.Cms.StaticAssets.props')" />
+    <Import Project="$(NuGetPackageRoot)umbraco.cms.targets\16.3.4\buildTransitive\Umbraco.Cms.Targets.props" Condition="Exists('$(NuGetPackageRoot)umbraco.cms.targets\16.3.4\buildTransitive\Umbraco.Cms.Targets.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.4\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.4\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
