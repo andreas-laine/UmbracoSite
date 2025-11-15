@@ -741,3 +741,5 @@ D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\uSync\v16\Media\crowd.sv
 D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\uSync\v16\Media\dotmap1.svg.config
 D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\uSync\v16\Media\dotmap2.svg.config
 D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\uSync\v16\Media\meeting.svg.config
+D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\uSync\v16\Media\contactpersongrey.png.config
+D:\ECUtbildning\UmbracoSite\UmbracoCMS\bin\Debug\net9.0\uSync\v16\Media\contactpersongrey.png-1.config

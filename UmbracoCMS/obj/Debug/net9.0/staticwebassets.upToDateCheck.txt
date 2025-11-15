@@ -1,6 +1,7 @@
 wwwroot\css\forms.css
-wwwroot\css\output.css
 wwwroot\css\input.css
+wwwroot\css\mini.css
+wwwroot\css\output.css
 wwwroot\css\style.css
 wwwroot\favicon.ico
 wwwroot\images\Assurance&Audits.svg
@@ -10,15 +11,23 @@ wwwroot\images\BgContact.svg
 wwwroot\images\Bonds&Commodities.svg
 wwwroot\images\Bonds.svg
 wwwroot\images\Brand.svg
+wwwroot\images\CEO.svg
 wwwroot\images\contactperson 1.svg
 wwwroot\images\contactperson.svg.png
+wwwroot\images\contactpersongrey.png
+wwwroot\images\crowd.svg
 wwwroot\images\Dot.svg
 wwwroot\images\DotContact.svg
+wwwroot\images\Dotmap1.svg
+wwwroot\images\Dotmap2.svg
 wwwroot\images\Financial-Advisor.svg
 wwwroot\images\financial.svg
 wwwroot\images\Home.Hero.svg
 wwwroot\images\Img-5-e1695109900349 1.svg
+wwwroot\images\kevin-gardner.svg
+wwwroot\images\Mail.svg
 wwwroot\images\map.svg
+wwwroot\images\meeting.svg
 wwwroot\images\OnlineSignature.svg
 wwwroot\images\PartnerLogos\01.svg
 wwwroot\images\PartnerLogos\04.svg
@@ -41,12 +50,4 @@ wwwroot\images\TeamMembers\Kevin-Gardner.svg
 wwwroot\images\TeamMembers\Miranda-Dayton.svg
 wwwroot\images\TeamMembers\Tina-Fox.svg
 wwwroot\js\form.js
-wwwroot\images\Mail.svg
-wwwroot\images\CEO.svg
-wwwroot\images\kevin-gardner.svg
-wwwroot\images\crowd.svg
-wwwroot\images\meeting.svg
-wwwroot\images\Dotmap2.svg
-wwwroot\images\Dotmap1.svg
-wwwroot\css\mini.css
 wwwroot\media.zip
